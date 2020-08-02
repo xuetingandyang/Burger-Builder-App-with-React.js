@@ -1,6 +1,6 @@
 .SideDrawer {
     position: fixed;
-    width: 200px;
+    width: 180px;
     max-width: 70%;
     height: 100%;
     left: 0;
@@ -29,8 +29,9 @@
 }
 
 .Logo {
-    height: 11%;
-    margin-bottom: 32px;
+    height: 13%;
+    margin-bottom: 25px;
+    width: 65%;
 }
 
 .LogoSideDrawer img {
