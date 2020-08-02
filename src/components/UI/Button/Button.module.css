@@ -1,0 +1,45 @@
+.Button {
+    /* background-color: transparent; */
+    background-color:#F9E02A;;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    /* padding: 10px; */
+    padding: 15px 30px;
+    margin: 10px;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 7.5px;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    /* padding-left: 0; */
+}
+
+.Success {
+    color: #944317;
+    /* background-color:#eee; */
+}
+
+.Danger {
+    color: #944317;
+    background-color:#eee;
+}
+
+.LoginBtn {
+    float: left;
+}
+  
+.Button:disabled {
+    background-color: #dbdfe2;
+    cursor: not-allowed;
+
+    color: #B3B6B8;
+}
+
+.Button:not(:disabled) {
+    animation: enable 0.3s linear;
+}

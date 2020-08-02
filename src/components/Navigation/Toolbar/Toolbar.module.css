@@ -1,0 +1,46 @@
+.Toolbar {
+    height: 56px;
+    width: 100%;
+    /* always fix at top, even we scrolled */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FCDC1F;
+    /* all items in tollbar are aligned to each other */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+ 
+/* @media (min-width: 500px) {
+    .Toolbar {
+        height: 8vh;
+    }
+} */
+
+.Toolbar nav {
+    height: 100%;
+}
+
+/* .ToolBarLogo div {
+    height: 92px;
+} */
+
+.Logo {
+    height: 80%;
+}
+
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+/* 
+    .ToolBarLogo div {
+
+        display: none;
+    } */
+}
