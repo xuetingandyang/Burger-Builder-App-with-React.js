@@ -2,9 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Image of mobile burger builder](imgs/mobile.png)
 
-![Image of mobile burger builder checkout](imgs/checkout.png)
+<p float="left">
+  <img src="imgs/mobile.png" width="240" />
+  <img src="imgs/checkout.png" width="240" /> 
+</p>
 
 ## Planning an App in React 
 
