@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Modal from '../../components/UI/Modal/Modal';
 import Aux from '../Auxiliary/Auxiliary';
 
-
 const withErrorHandler = (WrappedComponent, axios) => {
     return class extends Component {
 
@@ -36,6 +35,9 @@ const withErrorHandler = (WrappedComponent, axios) => {
                         show={this.state.error}
                         modalClosed={this.errorConfirmedHnadler}
                     >
+                        <i style={{marginRight: '20px', color: 'red'}}
+                            class="fas fa-exclamation-triangle"> 
+                        </i>
                         {this.state.error ? this.state.error.message : null}
                     </Modal>
                     <WrappedComponent {...this.props} />
