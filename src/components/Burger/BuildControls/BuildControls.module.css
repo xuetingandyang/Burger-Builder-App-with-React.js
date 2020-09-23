@@ -12,7 +12,7 @@
 @media (min-width: 1000px) {
     .BuildControls {
         padding: 10px 0;
-        height: 41.6vh;
+        /* height: 41.6vh; */
         padding-bottom: 35px;
     }
 }

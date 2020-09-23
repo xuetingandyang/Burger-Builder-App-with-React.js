@@ -1,11 +1,17 @@
 # Burger Builder with React.js
 
+[Try Burger Builder App Now!](https://react-my-burger-shirleyxting.web.app/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 <p float="left">
-  <img src="imgs/mobile.png" width="240" />
-  <img src="imgs/checkout.png" width="240" /> 
+  <img src="imgs/mobile.png" width="200" />
+  <img src="imgs/checkout.png" width="200" /> 
+  <img src="imgs/summary.png" width="200" /> 
+  <img src="imgs/contact.png" width="200" /> 
+  <img src="imgs/orders.png" width="200" /> 
 </p>
 
 ## Planning an App in React 
