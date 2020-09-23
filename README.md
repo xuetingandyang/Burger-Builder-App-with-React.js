@@ -7,11 +7,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 <p float="left">
-  <img src="imgs/mobile.png" width="200" />
-  <img src="imgs/checkout.png" width="200" /> 
-  <img src="imgs/summary.png" width="200" /> 
-  <img src="imgs/contact.png" width="200" /> 
-  <img src="imgs/orders.png" width="200" /> 
+  <img src="imgs/mobile.png" width="160" />
+  <img src="imgs/checkout.png" width="160" /> 
+  <img src="imgs/summary.png" width="160" /> 
+  <img src="imgs/contact.png" width="160" /> 
+  <img src="imgs/orders.png" width="160" /> 
 </p>
 
 ## Planning an App in React 
